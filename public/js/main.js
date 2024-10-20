@@ -68,7 +68,7 @@ function addNoteToList(note) {
     editButton.onclick = () => editNote(note._id);
     li.appendChild(editButton);
 
-    //delete kerne ke liye
+    //delete 
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
     deleteButton.onclick = () => deleteNote(note._id);
